@@ -70,7 +70,7 @@ if pad_y > 0:
 labels = np.array(Image.fromarray(labels.astype('uint8')).resize((h, w)))
 
 plt.imshow(labels)
-plt.waitforbuttonpress()
+
 ```
 
 ### How to use this model with custom input shape and custom number of classes
